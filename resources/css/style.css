@@ -59,7 +59,7 @@ html{
   display: none;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 520px){
+@media only screen and (min-width: 320px) and (max-width: 1024px){
   .nav-bar ul{
     display: none;
   }
@@ -121,7 +121,7 @@ html{
   line-height: 1.25;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 520px){
+@media only screen and (min-width: 320px) and (max-width: 1024px){
   .banner{
     display: block;
     width: 100%;
@@ -251,7 +251,7 @@ html{
   display: none;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 520px){
+@media only screen and (min-width: 320px) and (max-width: 1024px){
 
   .info-text{
      display: none;
@@ -360,7 +360,7 @@ html{
   display: none;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 520px){
+@media only screen and (min-width: 320px) and (max-width: 1024px){
 
   .courses{
     padding: 32px 16px;
@@ -420,7 +420,7 @@ html{
   background-color: #d8d8d8;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 520px){
+@media only screen and (min-width: 320px) and (max-width: 1024px){
 
   .thesis h1{
     padding: 0;
@@ -450,9 +450,6 @@ html{
   .thesis-text video{
     width: 100%;
   }
-
-
-
 }
 
                                 /* Footer */
@@ -486,4 +483,8 @@ footer{
 
 .footer a:hover{
   color: black;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px){
+
 }

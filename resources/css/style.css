@@ -58,7 +58,7 @@ html{
   display: none;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 10000000px){
+@media only screen and (min-width: 320px) and (max-width: 520px){
   .nav-bar ul{
     display: none;
   }
@@ -136,7 +136,7 @@ html{
     flex-direction: column;
     justify-content: center;
     max-width: 100%;
-    margin: 16px;
+    margin: 0 16px;
   }
 
   .banner h1{
@@ -158,7 +158,6 @@ html{
 .info{
   display: flex;
   width: 100%;
-  padding-bottom: 32px;
   background-color: #f3f5f5;
 }
 
@@ -247,9 +246,52 @@ html{
   background-color: lightgrey;
 }
 
+.info-pic-mobile{
+  display: none;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 480px){
   .info-text{
      display: none;
+  }
+
+  .info-boxes {
+    width: 100%;
+  }
+
+  .info-box{
+    flex-direction: column;
+    margin: 16px;
+  }
+
+  .info-pic-desktop{
+    display: none;
+  }
+
+  .info-pic-mobile{
+    display: block;
+  }
+
+  .info-box img{
+    width: 100%;
+    padding: 0;
+  }
+
+  .orientation{
+    padding-top: 0;
+    border: none;
+  }
+
+  .box-text{
+    width: 100%;
+    padding: 0;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+  }
+
+  .lecture{
+    background-color: #f3f5f5;
   }
 }
 

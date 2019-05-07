@@ -58,7 +58,7 @@ html{
   display: none;
 }
 
-@media only screen and (min-width: 1px) and (max-width: 60000px){
+@media only screen and (min-width: 320px) and (max-width: 480px){
   .nav-bar ul{
     display: none;
   }

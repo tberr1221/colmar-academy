@@ -436,7 +436,7 @@ html{
   .info-text{
     max-width: 100%;
     padding: 0;
-    padding-bottom: 32px;
+    padding-bottom: 24px;
   }
 
   .thesis-boxes{
@@ -486,5 +486,19 @@ footer{
 }
 
 @media only screen and (min-width: 320px) and (max-width: 1024px){
+
+  footer{
+    border: none;
+    height: auto;
+  }
+
+  .footer ul{
+    display: none;
+  }
+
+  .footer{
+    padding: 16px;
+    color: black;
+  }
 
 }
